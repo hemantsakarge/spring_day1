@@ -8,5 +8,7 @@ public static void main(String[] args) {
 	
 	BeanFactory beanf=new ClassPathXmlApplicationContext("bean.xml");
 	beanf.getBean("s");
+	
+	System.out.println("ioc 1...");
 }
 }
