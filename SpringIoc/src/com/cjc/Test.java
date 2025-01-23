@@ -6,12 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 public static void main(String[] args) {
 	
-	
-	
 	BeanFactory beanf=new ClassPathXmlApplicationContext("bean.xml");
 	beanf.getBean("s");
-	
-	
-	
-	
-}}
+}
+}
